@@ -1,0 +1,229 @@
+
+
+@font-face {
+    font-family: "Android";
+    src: url(idroid.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(227, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cab {
+    height: 190px;
+    width: auto;
+    margin: -8px;
+    background-image: linear-gradient(to top, #000000, #003003, #003403,#008f07);
+    background-attachment: fixed;
+}
+
+.text-introduction {
+    color: rgb(239, 239, 239);
+    text-align: center;
+    padding-top: 7px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.516);
+}
+
+.text-introduction > h1 {
+    font-size: 25px;
+}
+
+.text-introduction > p {
+    margin: 0px auto;
+    width: 380px;
+    padding-top: 10px;
+
+}
+
+.introduction > nav {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.introduction > nav > a {
+    font-size: 1em;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: #a5ffaa;
+    border-radius: 2px;
+}
+
+.introduction > nav > a:hover {
+    background-color: #ffffff14;
+}
+
+.container {
+    background-color: white;
+    margin: 20px auto;
+    padding: 5px 30px;
+    text-align: justify;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.326);
+    min-width: 320px;
+    max-width: 800px;
+
+}
+
+.art1 > h1 {
+    color: #003403;
+    font-family: 'Android';
+    font-size: 22px;
+}
+
+.art1 > p {
+    text-indent: 30px;
+}
+
+.art2, .art3 {
+    margin: 5px 0px;
+}
+
+.art2 > h2 {
+    background-image: linear-gradient(to right, #a5ffaa, #a5ffa900);
+    color: #003403;
+    font-family: 'Android';
+    font-size: large;
+}
+
+.art2 > p {
+    text-indent: 30px;
+}
+
+.art2 > p > a {
+    background-color: #a5ffaa;
+    color: #003403;
+    padding: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.art2 > p > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #255c28;
+}
+
+.art2p {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.art3 {
+    text-indent: 30px;
+}
+
+.art3 > h2 {
+    background-image: linear-gradient(to right, #a5ffaa, #a5ffa900);
+    color: #003403;
+    font-family: 'Android';
+    font-size: large;
+}
+
+.art3 > p > a {
+    background-color: #a5ffaa;
+    color: #003403;
+    padding: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.art3 > p > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #255c28;
+}
+.art3p, .art3p2 {
+    text-align: center;
+    text-indent: 0px;
+}
+
+.containervideo {
+    background-color: #003403;
+    margin: auto -30px;
+    padding: 30px 30px;
+    position: relative;
+    padding-bottom: 40%;
+}
+
+.art3video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+.box-container {
+    background-color: #a5ffaa;
+    margin: 0px 5px;
+    padding: 10px 10px;
+    text-align: justify;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.326);
+    border-radius: 0px 0px 25px 25px;
+    text-indent: 30px;
+}
+
+.box-container-title {
+    background-color: #008f07;
+    border-radius: 25px 25px 0px 0px;
+    margin: 0px 5px;
+    padding: 10px;
+    text-indent: 30px;
+}
+
+.box-container-title > h3 {
+    color: aliceblue;
+    margin: 1px;
+}
+
+.list {
+    padding: 0px 30px ;
+    text-indent: 0px;
+}
+
+.side1 {
+    display: inline-block;
+    width: 224px;
+}
+
+.side2 {
+    display: inline-block;
+    margin-left: 30px;
+    width: 200px;
+}
+
+.a-h > a {
+    background-color: #a5ffaa;
+    color: #003403;
+    padding: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a-h > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #255c28;
+}
+
+.afterart4 {
+    text-indent: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #255c28;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px -8px 0px -8px;
+}
+
+footer > p {
+    color: antiquewhite;
+    padding: 5px;
+}

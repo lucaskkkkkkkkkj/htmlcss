@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #272727;
+}
+
+.container {
+    width: 200px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: #5f007e;
+}
+
+bioc {
+    width: 100px;
+}
+
+.bio {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+
+p {
+    text-align: justify;
+}
+
+

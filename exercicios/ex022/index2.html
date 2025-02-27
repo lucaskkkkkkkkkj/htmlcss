@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tag</title>
+    <style>
+        body {
+            background-color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: aliceblue;
+            margin: 3px 3px;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.388);
+
+        }
+
+        header > h1 {
+            margin-left: 5px;
+        }
+
+        .br {
+            color: darkgreen;
+            font-size: 0.5em;
+        }
+        
+        .news {
+            color: brown;
+        }
+
+        nav {
+            background-color: darkgray;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.477);
+        }
+
+        nav > a {
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(200, 230, 255);
+        }
+
+        section {
+            background-color: aliceblue;
+            margin: 3px;
+            padding: 3px;
+            text-align: justify;
+            border-radius: 10px 0px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.361);
+        }
+
+        section > h2 {
+            margin-left: 3px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+
+        article {
+            margin-left: 3px;
+        }
+
+
+        .art1 > aside {
+            background-color: gray;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 3px;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="h1p">Sport<strong class="news">News</strong><sub class="br">Brasil</sub></h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Chat</a>
+            <a href="#">Credits</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="Conteudo principal">
+            <h2>Maior salão de noticias desportivas da sua web!</h2>
+            <article class="art1">
+                <h3>Noticia sobre o mundo desportivo</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi eos error doloribus sequi aut laudantium, minima dignissimos quidem ipsam. Assumenda corrupti maxime illum sint saepe pariatur dignissimos minus veniam dolorum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quod nesciunt provident officiis quisquam vero, cum impedit, odio fuga aliquam sint libero consequatur. Enim delectus quidem maxime. Maiores, dignissimos enim.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem magni quidem ex ullam corrupti, accusantium incidunt nulla adipisci! Distinctio corporis ipsum tempore rerum corrupti consequatur blanditiis nobis eos quae vitae?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsa aliquam qui officiis perspiciatis soluta, dignissimos minima quisquam fugit impedit magni enim deleniti non sed, reiciendis corrupti! Tenetur, ratione veritatis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque qui tempora id accusamus, porro aspernatur magnam quo rerum ipsum debitis totam optio! Quia odit alias nesciunt, dolore perferendis quaerat sit?
+                </p>
+                <aside>
+                    <p>Feito por pinto um cinco seis da silva cu</p>
+                </aside>
+            </article>
+            <article class="art2">
+                <h3>Noticias desportivas locais</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, incidunt quod. Deleniti omnis nam ipsum facilis recusandae dolores nesciunt voluptas, nihil nemo, qui fuga voluptates minus quia aperiam quo quam!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum accusamus commodi possimus necessitatibus harum corrupti cumque animi excepturi eius praesentium unde, magnam labore est repellat impedit voluptatem repudiandae quae laudantium.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, adipisci similique neque in nesciunt, illum qui earum laborum enim est quae rem nam facere eveniet delectus, dolores quos quibusdam quod.
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por eu</p>
+    </footer>
+</body>
+</html>
