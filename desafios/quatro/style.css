@@ -219,10 +219,10 @@ footer {
     background-color: #255c28;
     text-align: center;
     font-weight: normal;
-    margin: 0px -8px 0px -8px;
+    margin: -16px;
 }
 
 footer > p {
     color: antiquewhite;
-    padding: 5px;
+    padding: 10px;
 }
